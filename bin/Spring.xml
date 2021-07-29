@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Creating bean of HelloWorldPojo Class by passing a reference id with string
+reference value and giving the fully qualified class name as a value for class -->
+	<bean id="hlw" class="org.ram.springDemoApp.HelloWorldPojo"></bean>
+
+</beans>
